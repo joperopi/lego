@@ -16,6 +16,7 @@ html {
     flex-direction: column;
     margin: 10px;
     width: 305px;
+    z-index: 100;
 }
 
 .bricktop {
@@ -93,6 +94,15 @@ img {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
+
+.grow {
+    transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+    transform: scale(1.1);
+}
+
 
 .footer {
     background-color: lightgray;
