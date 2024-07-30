@@ -44,7 +44,8 @@ body {
     gap: 10px;
     text-align: center;
     max-width: 500px;
-    flex: auto;
+    flex-shrink: 1;
+    min-width: 0;
 }
 
 .footer {
