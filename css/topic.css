@@ -55,6 +55,30 @@ html {
 
 .main {
     min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 50px;
+}
+
+
+.deck {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1420px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    text-align: center;
+    text-decoration: none;
 }
 
 .footer {
